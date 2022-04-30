@@ -1,0 +1,22 @@
+* {
+   box-sizing: border-box;
+}
+
+*+* {
+   margin: .5em 0;
+}
+
+.container {
+   margin: 0 auto;
+   width: 95%;
+}
+
+.test {
+   font-weight: bold;
+}
+
+@media only screen and (min-width: 768px) {
+   .container {
+      width: 80%;
+   }
+}
